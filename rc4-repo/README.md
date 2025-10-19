@@ -19,7 +19,9 @@ rc4-repo/
 1. Mã hóa văn bản
 
 Thư mục: encrypt_project
-Lệnh chạy:./encrypt
+Biên dịch và chạy: cd encrypt_project
+                   gcc main.c ../lib/rc4.c -o encrypt
+                   ./encrypt
 
 Mô tả:
 Khóa: RC4Key123
@@ -31,7 +33,9 @@ Xuất ra văn bản mã dạng hex.
 2. Giải mã văn bản
 
 Thư mục: decrypt_project
-Lệnh chạy:./decrypt
+Biên dịch và chạy: cd ../decrypt_project
+                   gcc main.c ../lib/rc4.c -o decrypt
+                   ./decrypt
 
 Mô tả:
 Khóa: RC4Key123

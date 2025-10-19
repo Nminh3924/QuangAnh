@@ -1,6 +1,6 @@
 Chuỗi ví dụ "Hanoi University of Science and Technology" được mã hóa với khóa "RC4Key123" để minh họa hoạt động của thuật toán.
 Cấu trúc Repository
-Repository được tổ chức như sau:
+Repository có cấu chức như sau:
 rc4-repo/
 ├── lib/
 │   ├── rc4.h
@@ -13,7 +13,6 @@ rc4-repo/
 
 - encrypt_project: Mã hóa văn bản gốc thành văn bản mã (dạng hex).
 - decrypt_project: Giải mã văn bản mã (hex) thành văn bản gốc.
-
 
 * Cách chạy chương trình
 1. Mã hóa văn bản
